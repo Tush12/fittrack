@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main Page</title>
+	<link rel="stylesheet" href="index_style.css">
+    <script src="index.js"></script>
+</head>
+<div id="DistrictArea">
+  <select id="Engdistrictselect">
+      <option value="1">Central and Western</option>
+      <option value="2">Wan Chai</option>
+      <option value="3">Eastern</option>
+      <option value="4">Southern</option>
+      <option value="5">Sham Shui Po</option>
+      <option value="6">Yau Tsim Mong</option>
+      <option value="7">Wong Tai Sin</option>
+      <option value="8">Tuen Mun</option>
+      <option value="9">Kwun Tong</option>
+      <option value="10">Kowloon City</option>
+      <option value="11">Tai Po</option>
+      <option value="12">Sai Kung</option>
+      <option value="13">Sha Tin Distict</option>
+      <option value="14">Yuen Long</option>
+      <option value="15">North</option>
+      <option value="16">Tsuen Wan</option>
+      <option value="17">Kwai Tsing</option>
+      <option value="18">Islands</option>
+   </select>
+  <input type="button" id="EnglishDistrictfuncButton" onclick="EnglishDistrictfunc()" value="Search for district" class="btn">
+  <select id="Chidistrictselect">
+      <option value="19">中西區</option>
+      <option value="20">灣仔區</option>
+      <option value="21">東區</option>
+      <option value="22">南區</option>
+      <option value="23">深水埗區</option>
+      <option value="24">油尖旺區</option>
+      <option value="25">黃大仙區</option>
+      <option value="26">屯門區</option>
+      <option value="27">觀塘區</option>
+      <option value="28">九龍城區</option>
+      <option value="29">大埔區</option>
+      <option value="30">西貢區</option>
+      <option value="31">沙田區</option>
+      <option value="32">元朗區</option>
+      <option value="33">北區</option>
+      <option value="34">荃灣區</option>
+      <option value="35">葵青區</option>
+      <option value="36">離島區</option>
+   </select>
+  <input type="button" id="ChineseDistrictfuncButton" onclick="ChineseDistrictfunc()" value="搜尋區域" class="btn">
+</div>        
+
+<body>
+    <h2><span id="topic"></span></h2>
+    <p><span id="content"></span> <a href="index.html"><span id="back"></span></a></p>  
+	<div id="data" class="obj"></div>
+        
+    
+</body>
+</html>
